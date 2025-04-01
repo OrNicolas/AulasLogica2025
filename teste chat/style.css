@@ -1,0 +1,89 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff6347;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  #menu {
+    margin: 30px;
+  }
+  
+  #menu h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #pizza-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .pizza-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .pizza-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .pizza-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .pizza-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .pizza-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .pizza-item .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 0;
+  }
+  
