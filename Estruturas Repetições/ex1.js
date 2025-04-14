@@ -7,3 +7,5 @@ while ( ind >= 0 ) {
 console.log (ind)
 ind--
 }
+
+bbb
