@@ -4,4 +4,5 @@ Amarelo
 Azul`);
     
  }
- coresPrimarias();
+ coresPrimarias();  
+ 
